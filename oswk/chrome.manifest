@@ -1,0 +1,3 @@
+content		oswk		chrome/content/
+
+overlay		chrome://browser/content/browser.xul		chrome://oswk/content/browser.xul

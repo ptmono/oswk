@@ -1,0 +1,1 @@
+pref("extensions.oswk.foo", "bar");

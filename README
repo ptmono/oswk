@@ -1,0 +1,24 @@
+### === Goal
+### ______________________________________________________________
+
+I want following in firefox.
+
+ 1. "C-c 1" opens english-korean.
+ 2. "C-c 3" opens the file "worknote.muse" with emacs.
+
+
+### === Requrements
+### ______________________________________________________________
+
+ 1. https://addons.mozilla.org/en-us/firefox/addon/mozlab/
+
+
+### === Using
+### ______________________________________________________________
+
+ 1. Install oswk.xpi in firefox. If no oswk.xpi, command "bash oswk.sh"
+ will generate oswk.xpi. Or manually install "oswk".
+
+ 2. Execute "python moz_server.py". There is no way to execute file in
+ firefox. So I wrote a small server to execute "emacsclient" from firefox.
+ It uses mozlab to get the information of the firefox window.
